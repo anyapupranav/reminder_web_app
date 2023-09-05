@@ -1,8 +1,8 @@
 <?php
 
 $servername = "127.0.0.1";
-$username = "kishoreweb";
-$password = "password@123";
+$username = "your databse username";
+$password = "your database password";
 $dbname = "reminder_app";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
